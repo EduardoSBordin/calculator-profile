@@ -1,0 +1,88 @@
+body{
+
+    background: #f2767c;
+    padding: 0;
+    margin: 0;
+}
+#mainSection{
+
+    background: rgb(23,23,23);
+    background: linear-gradient(262deg, rgba(23,23,23,1) 0%, rgba(57,57,59,1) 69%);
+    width: 300px;
+    height: 370px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#divHeader{
+
+    background: #a2af77;
+    width: 250px;
+    height: 65px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+#divTable{
+
+    background: rgba(128, 128, 128, 0);
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+}
+input[type=button]{
+
+    background: #636366;
+    color: white;
+    width: 60px;
+    height: 40px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    margin: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+input[type=button]:hover{
+
+    background: rgb(159, 159, 159);
+}
+#btnResult{
+
+    height: 90px;
+    background: #f15a2a;
+    color: white;
+}
+#btnResult:hover{
+
+    background: #ff440b;
+}
+#btnZero{
+
+    width: 130px;
+}
+#btnsUp{
+
+    background-color: black;
+    color: white;
+    font-size: 14pt;
+}
+#btnsUp:hover{
+
+    background: rgb(23, 23, 23);
+}
+p{
+    color: rgb(23,23,23);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
